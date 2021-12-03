@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedCornerButton">
+        <item name="android:background">@drawable/m_rounded_button</item>
+        <item name="android:layout_width">150dp</item>
+    </style>
+</resources>
