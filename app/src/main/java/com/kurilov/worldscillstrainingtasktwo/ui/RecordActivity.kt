@@ -34,6 +34,7 @@ class RecordActivity : Activity() {
 
         }
 
+        binding.backTextView.setOnClickListener { finish() }
     }
 
 }

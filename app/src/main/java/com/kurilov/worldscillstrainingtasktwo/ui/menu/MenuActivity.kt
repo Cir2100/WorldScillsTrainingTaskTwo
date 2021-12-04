@@ -28,6 +28,8 @@ class MenuActivity : Activity() {
         binding.menuList.layoutManager = LinearLayoutManager(this)
         adapter = MenuAdapter(DataLoader.records, menuItemClickListener)
         binding.menuList.adapter = adapter
+
+        binding.backTextView.setOnClickListener { finish() }
     }
 
     inner class MenuItemClickListener {

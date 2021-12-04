@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/drawable/ic_launcher_background.xml" value="1.075" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/drawable/m_rounded_button.xml" value="1.0964285714285715" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/drawable/m_rounded_constrain_layout.xml" value="1.1535714285714285" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/activity_item.xml" value="0.6282894736842105" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/activity_main.xml" value="0.6513157894736842" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/activity_menu.xml" value="0.6282894736842105" />
-        <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/activity_record.xml" value="0.6155555555555555" />
+        <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/activity_record.xml" value="1.0" />
         <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/layout/menu_item.xml" value="0.6282894736842105" />
+        <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="1.075" />
+        <entry key="..\:/Projects/Ad/WorldScillsTrainingTaskTwo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="1.075" />
       </map>
     </option>
   </component>

@@ -14,6 +14,24 @@
             android:layout_height="match_parent"
             app:layout_boxedEdges="all">
 
+            <TextView
+                android:id="@+id/back_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="back"/>
+
+            <TextClock
+                android:id="@+id/text_clock"
+                android:layout_width="wrap_content"
+                android:format12Hour="hh:mm"
+                android:format24Hour="hh:mm"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ImageView
                 android:id="@+id/record_title_image"
                 android:layout_width="@dimen/record_title_image_size"
@@ -21,17 +39,17 @@
                 app:layout_constraintEnd_toStartOf="@id/record_title_text"
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@id/text_clock" />
 
             <TextView
                 android:id="@+id/record_title_text"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
+                android:gravity="center"
                 app:layout_constraintBottom_toBottomOf="@id/record_title_image"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/record_title_image"
-                app:layout_constraintTop_toTopOf="@id/record_title_image"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintTop_toTopOf="@id/record_title_image" />
 
             <ImageView
                 android:layout_marginTop="5dp"
