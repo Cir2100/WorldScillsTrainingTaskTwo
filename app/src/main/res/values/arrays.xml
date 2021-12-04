@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="menu_images">
+        <item>@drawable/ic_blinchik</item>
+        <item>@drawable/ic_borsch</item>
+        <item>@drawable/ic_cesar</item>
+        <item>@drawable/ic_milkshake</item>
+        <item>@drawable/ic_spagetti</item>
+    </integer-array>
+    <string-array name="menu_names">
+        <item>Блинчики</item>
+        <item>Борщ</item>
+        <item>Цезарь</item>
+        <item>Мол. коктейль</item>
+        <item>Спагетти</item>
+    </string-array>
+</resources>
