@@ -1,13 +1,9 @@
 package com.kurilov.worldscillstrainingtasktwo.data
 
-import android.graphics.drawable.Drawable
-
-data class MenuItem(
-    val image: Int,
-    val name: String
-)
 
 data class Record(
-    val image: Int,
+    val imageMenu: Int,
+    val name: String,
+    val imageRecord : Int,
     val description: String
 )

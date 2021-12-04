@@ -8,7 +8,7 @@ import com.kurilov.worldscillstrainingtasktwo.ui.menu.MenuActivity
 
 class MainActivity : Activity() {
 
-private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

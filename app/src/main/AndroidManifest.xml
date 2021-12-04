@@ -40,6 +40,11 @@
             android:exported="true"
             android:label="@string/menu_activity" >
         </activity>
+        <activity
+            android:name=".ui.RecordActivity"
+            android:exported="true"
+            android:label="@string/record_activity" >
+        </activity>
     </application>
 
 </manifest>

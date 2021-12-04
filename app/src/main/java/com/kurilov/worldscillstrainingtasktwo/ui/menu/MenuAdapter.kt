@@ -1,16 +1,18 @@
 package com.kurilov.worldscillstrainingtasktwo.ui.menu
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.kurilov.worldscillstrainingtasktwo.R
-import com.kurilov.worldscillstrainingtasktwo.data.MenuItem
+import com.kurilov.worldscillstrainingtasktwo.data.Record
 import com.squareup.picasso.Picasso
 
-class MenuAdapter(private val items: List<MenuItem>)  :
+class MenuAdapter(private val items: List<Record>, private val menuItemClickListener: MenuActivity.MenuItemClickListener)  :
     RecyclerView.Adapter<MenuAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -24,8 +26,15 @@ class MenuAdapter(private val items: List<MenuItem>)  :
         val item = items[position]
         holder.itemNameTextView?.text = item.name
         Picasso.get()
-            .load(item.image)
+            .load(item.imageMenu)
             .into(holder.itemImageView)
+
+        holder.itemView.setOnClickListener{
+            val pos = holder.bindingAdapterPosition
+            if(pos != DiffUtil.DiffResult.NO_POSITION) {
+                menuItemClickListener.onClickPairItem(pos)
+            }
+        }
 
     }
 
